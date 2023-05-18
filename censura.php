@@ -3,6 +3,7 @@
 $testo = $_GET['testo'];
 $parola = $_GET['parola'];
 
+$stringaModificata = str_replace($parola, '***', $testo);
 ?>
 
 <!DOCTYPE html>
@@ -17,5 +18,12 @@ $parola = $_GET['parola'];
      <h1>Il testo inserito è:</h1>
      <p><?php echo $testo?></p>
      <h4>Lunghezza testo: <?php echo strlen($testo)?></h4>
+
+     <h1>Il nuovo testo censurato è:</h1>
+     <p><?php echo $stringaModificata ?></p>
+     <h4>Lunghezza testo: <?php echo strlen($stringaModificata)?></h4>
+
+     
+
 </body>
 </html>

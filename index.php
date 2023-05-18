@@ -20,7 +20,7 @@
           </div>
 
           <div class="m-4">
-               <label for="exampleFormControlTextarea1" class="form-label">Inserisci parola</label>
+               <label for="exampleFormControlTextarea1" class="form-label">Scegli una parola da censurare</label>
                <input class="form-control form-control-lg" type="text" placeholder="" aria-label=".form-control-lg example" name="parola">
           </div>
 
